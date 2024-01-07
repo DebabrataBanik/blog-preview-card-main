@@ -61,6 +61,11 @@ h2{
   margin: 0;
 }
 
+h2:hover{
+  cursor: pointer;
+  color: var(--clr-yellow);
+}
+
 .content{
   color: var(--clr-grey);
   line-height: 25px;
@@ -75,4 +80,10 @@ h2{
   object-fit: cover;
   vertical-align: middle;
   margin-right: 10px;
+}
+
+@media (max-width: 400px){
+  .blog{
+    max-width: 340px;
+  }
 }
