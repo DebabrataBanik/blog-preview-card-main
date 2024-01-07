@@ -7,7 +7,7 @@
   --clr-grey: hsl(0, 0%, 50%);
   --clr-black: hsl(0, 0%, 7%);
 
-  --fs-para: 16px;
+  --fs-para: 1rem;
   --fs-tag: 14px;
 
   --fw-normal: 600;
@@ -32,12 +32,15 @@ body{
 }
 
 .blog{
-  max-width: 390px;
+  max-width: 380px;
   background-color: var(--clr-white);
-  padding: 22px;
+  padding: 25px;
   border: 1px solid var(--clr-black);
   border-radius: 20px;
   box-shadow: 8px 8px 0px var(--clr-black);
+}
+.blog:hover{
+  box-shadow: 12px 12px 0px var(--clr-black);
 }
 
 .blog-img{
@@ -82,8 +85,18 @@ h2:hover{
   margin-right: 10px;
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
   .blog{
-    max-width: 340px;
+    max-width: 20.5rem;
+    padding: 20px;
+  }
+  h2{
+    font-size: 1.3rem;
+  }
+  .content{
+    font-size: var(--fs-tag);
+  }
+  .blog-tag{
+    font-size: 12px;
   }
 }
