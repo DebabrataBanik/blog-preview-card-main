@@ -34,7 +34,7 @@ body{
 .blog{
   max-width: 390px;
   background-color: var(--clr-white);
-  padding: 20px;
+  padding: 22px;
   border: 1px solid var(--clr-black);
   border-radius: 20px;
   box-shadow: 8px 8px 0px var(--clr-black);
