@@ -38,6 +38,7 @@ body{
   border: 1px solid var(--clr-black);
   border-radius: 20px;
   box-shadow: 8px 8px 0px var(--clr-black);
+  transition: all 0.5s;
 }
 .blog:hover{
   box-shadow: 12px 12px 0px var(--clr-black);
@@ -62,6 +63,7 @@ body{
 }
 h2{
   margin: 0;
+  transition: all 0.5s;
 }
 
 h2:hover{
