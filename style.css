@@ -67,12 +67,12 @@ h2{
 }
 
 .footer{
-  font-size: var(--fs);
+  font-size: var(--fs-tag);
   font-weight: var(--fw-bold);
 }
 .footer img{
   width: 30px;
   object-fit: cover;
   vertical-align: middle;
-  margin-right: 5px;
+  margin-right: 10px;
 }
